@@ -15,6 +15,11 @@ int main(void) {
       printf("🎅");
   }
   printf("\n\n\n");
+  
+  printf("💗 🧡 💛 💚 💙\n");
+  printf("🎄 🎄 🎄 🎄 🎄\n");
+  printf("🤎 🤎 🤎 🤎 🤎\n");
+  printf("1  2  3  4  5\n\n");
 
   int number;
   printf("🎄 트리 번호를 선택해주세요! ");
