@@ -14,6 +14,9 @@ int main(void) {
   for (int i = 0; i <20; i++  ) {
       printf("🎅");
   }
+  
+  printf(" | 2022동아리 씨퓨에서 만든 🎄크리스마스🎄 게임! |\n\n"); //시작 멘트
+  
   printf("\n\n\n");
   
   printf("💗 🧡 💛 💚 💙\n");
@@ -108,6 +111,9 @@ int main(void) {
     }
     
   }
+  
+  printf(" | 지금끼지 게임을 플레이 해주셔서 감사합니다🙇‍♂️🙇‍♀️ |\n                                       -동아리 일동-\n"); //끝 멘트
+  
   return 0;
 }
 
@@ -119,4 +125,5 @@ void musicPrint(char title[256], char author[256]) {
 void msgPrint(char msg[256], char author[256]) {
   printf("%s\n\n", msg);
   printf("%s", author);
+ 
 }
