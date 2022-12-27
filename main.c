@@ -81,20 +81,20 @@ int main(void) {
       if(num==2)
   {
     
-      printf("\n\n꽝입니다..");
+      printf("\n꽝입니다..");
       
   }
   else if(num==3)
   {  
     
-      printf("\n\n영화 추천!\n\"%s\"을/를 추천합니다!",movie[rand()%9]);
+      printf("\n영화 추천!\n\"%s\"을/를 추천합니다!",movie[rand()%9]);
       
     
   }
   else if(num==4)
   {
       
-    printf("\n\n저녁 메뉴 추천!\n\"%s\"을/를 추천합니다!",dinner[rand()%7]);
+    printf("\n저녁 메뉴 추천!\n\"%s\"을/를 추천합니다!",dinner[rand()%7]);
       
      
     
