@@ -5,6 +5,11 @@
 void musicPrint(char title[256], char author[256]);
 void msgPrint(char msg[256], char author[256]);
 
+//저녁메뉴, 영화 리스트
+char * movie[9] = {"나홀로 집에","로맨틱 홀리데이", "크리스마스에는 행복이","러브 액츄얼리","팀버튼의 크리스마스 악몽","폴링 포 크리스마스","렛 잇 스노우","크리스마스를 농장에서","크리스마스를 망치는 방법"};
+
+char * dinner[7] = {"닭다리살 스테이크","마라탕","케이크","치킨","피자","떡볶이","파스타"};
+
 int main(void) {
   for (int i = 0; i <20; i++  ) {
       printf("🎅");
@@ -28,7 +33,8 @@ int main(void) {
     }
     
     srand(time(NULL));
-    int num = rand() % 2;
+    int num = rand() % 5;
+    
     if (num == 0) {
       printf("당신의 선물은 포춘 쿠키 메세지입니다 🤗\n\n");
       srand(time(NULL));
@@ -72,6 +78,27 @@ int main(void) {
         musicPrint("25th", "Tori kelly");
       }
       
+      if(num==2)
+  {
+    
+      printf("\n\n꽝입니다..");
+      
+  }
+  else if(num==3)
+  {  
+    
+      printf("\n\n영화 추천!\n\"%s\"을/를 추천합니다!",movie[r%9]);
+      
+    
+  }
+  else if(num==4)
+  {
+      
+    printf("\n\n저녁 메뉴 추천!\n\"%s\"을/를 추천합니다!",dinner[r%7]);
+      
+     
+    
+  }
      
     }
     
